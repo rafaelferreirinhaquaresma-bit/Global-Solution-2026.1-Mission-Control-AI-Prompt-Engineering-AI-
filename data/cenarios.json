@@ -1,0 +1,64 @@
+{
+  "cenarios": [
+    {
+      "nome": "Operação Normal",
+      "descricao": "Todos os parâmetros dentro do nominal. Ciclo de colheita de soja.",
+      "dados": {
+        "ndvi_sensor_saude": 96.5,
+        "temperatura_payload": 38.2,
+        "armazenamento": 72.0,
+        "janela_downlink": 28.0,
+        "estabilidade_atitude": 0.012
+      },
+      "pergunta_teste": "Como está a missão? Qual área está sendo monitorada?"
+    },
+    {
+      "nome": "Temperatura Elevada",
+      "descricao": "Payload aquecendo acima do nominal após eclipse prolongado.",
+      "dados": {
+        "ndvi_sensor_saude": 91.0,
+        "temperatura_payload": 63.5,
+        "armazenamento": 55.0,
+        "janela_downlink": 18.0,
+        "estabilidade_atitude": 0.022
+      },
+      "pergunta_teste": "A temperatura do payload está alta. Qual o risco para os dados agrícolas?"
+    },
+    {
+      "nome": "Armazenamento Crítico",
+      "descricao": "Buffer quase cheio, downlink atrasado por nuvens sobre a estação terrestre.",
+      "dados": {
+        "ndvi_sensor_saude": 89.0,
+        "temperatura_payload": 42.0,
+        "armazenamento": 6.5,
+        "janela_downlink": 3.2,
+        "estabilidade_atitude": 0.018
+      },
+      "pergunta_teste": "Estou com pouco armazenamento e janela de downlink curta. O que faço?"
+    },
+    {
+      "nome": "Falha Múltipla",
+      "descricao": "Falha em cascata após evento de partícula carregada (SEU - Single Event Upset).",
+      "dados": {
+        "ndvi_sensor_saude": 41.0,
+        "temperatura_payload": 79.5,
+        "armazenamento": 4.0,
+        "janela_downlink": 1.5,
+        "estabilidade_atitude": 0.15
+      },
+      "pergunta_teste": "Tenho múltiplos alertas críticos simultaneamente. Qual é a situação e o que fazer agora?"
+    },
+    {
+      "nome": "Sensor NDVI Degradado",
+      "descricao": "Degradação gradual do sensor por radiação acumulada.",
+      "dados": {
+        "ndvi_sensor_saude": 58.0,
+        "temperatura_payload": 41.0,
+        "armazenamento": 68.0,
+        "janela_downlink": 22.0,
+        "estabilidade_atitude": 0.019
+      },
+      "pergunta_teste": "O sensor NDVI está com 58% de saúde. Como isso afeta os produtores rurais que dependem dos nossos dados?"
+    }
+  ]
+}

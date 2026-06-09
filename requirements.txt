@@ -1,0 +1,15 @@
+# Dependências do Mission Control AI — AgroSat
+# Instale com: pip install -r requirements.txt
+
+# Core
+ollama==0.6.2
+python-dotenv==1.2.2
+
+# Interface CLI
+rich==15.0.0
+prompt-toolkit==3.0.52
+pyfiglet==1.0.4
+
+# Opcional — descomente se quiser gráficos e análise de séries temporais
+# pandas==2.2.3
+# matplotlib==3.9.2
