@@ -49,8 +49,7 @@ O sistema também produz análises acessíveis para **analistas de seguro agríc
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/usuario/mission-control-ai.git
-cd mission-control-ai
+git clone https://github.com/rafaelferreirinhaquaresma-bit/Global-Solution-2026.1-Mission-Control-AI-Prompt-Engineering-AI-.git
 ```
 
 ### 2. Crie e ative o ambiente virtual
