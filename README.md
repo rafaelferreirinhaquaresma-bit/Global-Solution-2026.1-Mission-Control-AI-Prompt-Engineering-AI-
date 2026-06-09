@@ -8,8 +8,8 @@
 
 | Nome Completo | RM | Turma |
 |---|---|---|
-| [Nome Integrante 1] | RM: XXXXXX | XCCXX |
-| [Nome Integrante 2] | RM: XXXXXX | XCCXX |
+| Rafael Ferreirinha Quaresma | RM: 571949 
+| Lucas Klein da Veiga        | RM: 570029 
 
 **Modalidade:** Dupla  
 **Disciplina:** Prompt Engineering and Artificial Intelligence · FIAP · Ciência da Computação  
@@ -172,7 +172,7 @@ Se o AgroSat-1 operar 100% saudável por 1 ano:
 
 ## 🎬 Vídeo de demonstração
 
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
+🔗 [Assistir demonstração no YouTube](https://youtu.be/Jp_l_yguzhk)
 
 > Configurado como "Não listado" no YouTube. Duração: ~3 minutos.
 
